@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    body {
+      background-color: lightsalmon;
+    }
+    .creative {
+      color: midnightblue;
+    }
+    .mainlogo {
+      height: 200px;
+      width: 200px;
+    }
+
+    @media (min-width: 1600px) {
+
+      div.main { display: block;}
+      .left {
+        float: left;
+        display: inline-block;
+        width: 45%;
+        text-align: justify;
+      }
+      .right {
+        float: right;
+        display: inline-block;
+        width: 45%;
+        text-align:justify;
+      }
+      .tile-image {
+        float: left;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 5px 5px grey;
+        padding-right: 10px;
+      }
+      p {
+        font-family: "Yellowtail", cursive;
+        font-size: 35px;
+      }
+    }
+    @media (max-width: 600px) {
+      .left {display: block;}
+      .right {display: block;}
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="mainlogo" src="./assets/images/logo1.JPG" alt="logo dev" /></a>
+    
+    
+    <div class="main">
+      <h1>
+        We are a <span class="creative">Creative </span> <br />
+        Design Agency
+      </h1>
+      <div class="left card">
+        <a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img
+          class="tile-image"
+          src="./assets/images/beautiful.jpg"
+          alt="hand and flower in water"
+        /></a>
+        <h2 class="card-title">Beauty</h2>
+        <p class="card-text">
+          We strive to create the most beautiful websites for all your needs.
+          Working closely with you to design and develop an amazing website for
+          your business.
+        </p>
+      </div>
+
+      <div class="right card">
+        <a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ"><img
+          class="tile-image"
+          src="./assets/images/construction.jpg"
+          alt="metal structure"
+        /> </a>
+        <h2 class="card-title">Construction</h2>
+        <p class="card-text">
+          Built by our team of professional developers, we ensure the most
+          rigourous and modern websites. Built from scratch using HTML and CSS.
+          Only the best for you.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>Create. Develop. Design.</p>
+    </footer>
+  </body>
+</html>
